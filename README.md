@@ -15,7 +15,7 @@ Open crontab
 crontab -e
 ```
 
-Add the script to cron tab (runs every 30 mins)
+Add the script to cron tab (runs every 5 mins)
 ```
-* /30 * * * * /srv/hosts.sh
+*/5 * * * * /srv/hosts.sh
 ```
