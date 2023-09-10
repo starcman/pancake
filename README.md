@@ -2,7 +2,7 @@
 
 Copy the file
 ```
-cp hosts.sh /srv/
+sudo cp hosts.sh /srv/
 ```
 
 Switch to root user
@@ -15,7 +15,7 @@ Open crontab
 crontab -e
 ```
 
-Add the script to cron tab 
+Add the script to cron tab (runs every 30 mins)
 ```
 * /30 * * * * /srv/hosts.sh
 ```
