@@ -1,6 +1,6 @@
 # Block websites using hosts file & cron
 
-Copy the file
+Copy the file to /srv folder
 ```
 sudo cp hosts.sh /srv/
 ```
